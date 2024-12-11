@@ -1,0 +1,46 @@
+.eWaste{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.centered-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .column {
+    width: 48%;
+    text-align: justify;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .full-width-row {
+    margin-top: 40px;
+  }
+  
+  .full-width-row img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .full-width-row p {
+    margin-top: 10px;
+    text-align: justify;
+  }

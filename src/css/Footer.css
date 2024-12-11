@@ -1,0 +1,122 @@
+/* src/css/Footer.css */
+
+/* General Styles */
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 20px;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.footer-title::after {
+  content: '';
+  width: 350px;
+  height: 2px;
+  background-color: #e67e22;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.subscription-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e67e22;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscription-button:hover {
+  background-color: #cf6d17;
+}
+
+.subscription-message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #2ecc71;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  /* padding: 10px 0; */
+  border-top: 2px solid #444;
+  /* margin-top: 10px; */
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .subscription-form {
+    align-items: center;
+  }
+
+  .subscription-input, .subscription-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}

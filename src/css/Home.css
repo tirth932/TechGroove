@@ -1,0 +1,267 @@
+.home {
+    background-color: white(0, 0, 0);
+    color: black;
+    overflow: hidden;
+}
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.popular .tagName{
+    font-size: 50px;
+    margin: 30px;
+}
+
+.popularProduct {
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularP {
+    height: 40vh;
+    width: 42vw;
+    border-radius: 10px;
+    border: 0.1px solid black(255, 255, 255, 0.814);
+    background: linear-gradient(336deg, black, rgba(255, 0, 0, 0) 90.71%),
+        linear-gradient(217deg, black, rgba(0, 0, 255, 0) 90.71%);
+    display: flex;
+
+}
+
+.popularInnerLeft{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.popularInnerRight{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.popularInnerRight .S24{
+    height: 280px;
+    width: auto;
+
+}
+.popularInnerRight .i15{
+    margin-top: -5%;
+    height: 330px;
+    width: auto;
+}
+.popularInnerLeft h2{
+    margin-top: -1%;
+}
+.scroller{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 10;
+
+    top: 60%;
+    left: 0%;
+}
+.scroller::-webkit-scrollbar {
+    display: none;
+}
+.scroller-in-1 {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: scroll;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.scroller img {
+    border-radius: 25px;
+    height: 140px;
+    vertical-align: middle;
+    border-style: none;
+    width: 165px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-right: 50px;
+    display: inline-block;
+    transition: all linear 0.1s;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.Offer{
+    margin-top: 100px;
+    height: 50vh;
+    width: 100vw;
+}
+.Offer img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.DealOffer{
+    margin-top: 20px;
+    height: 70vh;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.Deal1{
+    margin: 0;
+    height: 50vh;
+    width: 40vh;
+    background: linear-gradient(336deg,rgb(212, 96, 212) , rgb(203, 203, 81) 90.71%),
+        linear-gradient(217deg, rgb(73, 156, 73), blue 90.71%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.popularProduct a{
+    text-decoration: none ;
+    color:black
+}
+.DealOffer a{
+    text-decoration: none ;
+
+}
+.Deal1 img{
+    margin: -50px;
+    width: auto;
+    height: 250px;
+}
+.Deal2{
+    margin: 0;
+    height: 50vh;
+    width: 40vh;
+    background: linear-gradient(336deg,rgb(212, 96, 212) , rgb(203, 203, 81) 90.71%),
+    linear-gradient(217deg, rgb(73, 156, 73), blue 90.71%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.Deal2 img{
+    margin: -15px;
+    width: auto;
+    height: 180px;
+}
+.Deal3{
+    margin: 0;
+    height: 50vh;
+    width: 40vh;
+    background: linear-gradient(336deg,rgb(212, 96, 212) , rgb(203, 203, 81) 90.71%),
+    linear-gradient(217deg, rgb(73, 156, 73), blue 90.71%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.Deal3 img{
+    margin: 0px;
+    width: auto;
+    height: 150px;
+}
+.Deal4{
+    margin: 0;
+    height: 50vh;
+    width: 40vh;
+    background: linear-gradient(336deg,rgb(212, 96, 212) , rgb(203, 203, 81) 90.71%),
+    linear-gradient(217deg, rgb(73, 156, 73), blue 90.71%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.Deal4 img{
+    margin: -50px;
+    width: auto;
+    height: 250px;
+}
+.Banner img{
+    height: 450px;
+    width: 100%;
+}
+
+.Deal5{
+    margin: 0;
+    height: 60vh;
+    width: 50vh;
+    background: linear-gradient(336deg,rgb(212, 96, 212) , rgb(203, 203, 81) 90.71%),
+        linear-gradient(217deg, rgb(73, 156, 73), blue 90.71%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.Deal5 img{
+    margin: -50px;
+    width: auto;
+    height: 250px;
+}
+.Deal6{
+    margin: 0;
+    height: 60vh;
+    width: 50vh;
+    background: linear-gradient(336deg,rgb(212, 96, 212) , rgb(203, 203, 81) 90.71%),
+    linear-gradient(217deg, rgb(73, 156, 73), blue 90.71%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.Deal6 img{
+    margin: -15px;
+    width: auto;
+    height: 180px;
+}
+.Deal7{
+    margin: 0;
+    height: 60vh;
+    width: 50vh;
+    background: linear-gradient(336deg,rgb(212, 96, 212) , rgb(203, 203, 81) 90.71%),
+    linear-gradient(217deg, rgb(73, 156, 73), blue 90.71%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.Deal7 img{
+    margin: 0px;
+    width: auto;
+    height: 150px;
+}

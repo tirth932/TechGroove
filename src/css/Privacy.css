@@ -1,0 +1,27 @@
+.privacy-container {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .privacy-content {
+    width: 50%;
+    margin: 0 auto; /* Centers the div */
+    padding: 50px 0;
+  }
+  
+  .privacy-title {
+    text-align: center; /* Centers the title */
+    margin-bottom: 30px;
+    /* font-size: 20px; */
+  }
+  
+  .privacy-flex {
+    display: flex;
+    justify-content: center; /* Centers the content inside the flex container */
+  }
+  
+  .privacy-section-right {
+    text-align: left;
+  }
+  

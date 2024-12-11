@@ -1,0 +1,140 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.navbarInner1{
+  width: 97vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: rgb(9, 3, 61); /* Adjust to your preferred background color */
+  color: black;
+}
+
+.navbarInner2{
+  width: 97vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background-color: rgb(139, 218, 227); /* Adjust to your preferred background color */
+  
+}
+.navbarInner2 a{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+/* .navbar img {
+  width: 48px;
+  height: 48px;
+} */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.search-input {
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 20px;
+  width: 600px;
+}
+
+.search-button {
+  padding: 5px 5px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: black; /* Adjust button color */
+  color: black;
+  cursor: pointer;
+}
+
+.mobile-menu-icon {
+  display: none; /* Hide mobile menu icon by default */
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons a {
+  color: black;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.icons a:hover {
+  color: black; /* Adjust hover color */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links-mobile {
+    display: flex;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .search-form {
+    margin: 0;
+  }
+}
+
+/* Auth Links (Login & Sign Up) */
+.auth-links {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.auth-links a {
+  color: #4a148c;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.auth-links span {
+  margin: 0 5px;
+}
